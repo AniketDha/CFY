@@ -1,0 +1,246 @@
+@CHARSET "ISO-8859-1";
+
+#footer > .container {
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#main_content {
+    overflow: hidden;clear: both;
+}
+ @media (max-width:440px){.float-adjuster{padding-left:0px;float:left;}}
+.copyrightContainer{
+	margin:0px -15px;
+	padding-right:-15px;
+	padding-left:-15px;
+}
+.carousel{
+	
+	padding-left:-200px;
+}
+.car-img{height:230px;width:130%;}
+.copyrightPanel{
+	margin:10px 0px 10px 0px;
+	height:18px; 	
+	
+	border-color:#A94E02;
+	background-color:#A94E02;
+	border-radius:0px;
+}
+#colorstrip{
+ 
+    border-bottom:solid 25px #A94E02;
+    
+}
+.footerPadding{
+	margin-right:-5px;
+	color:#ffffff;
+	}
+.footerPadding2{
+	
+	padding-left:60px; 
+	margin-left:15px;
+	color:#ffffff;
+	}
+
+.col-centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.spacer {
+	font-weight:15px;
+	font-size:15px;
+	margin-top:8px;
+    margin-bottom: 10px;
+}
+.center-to-left {
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+ text-align: center;
+ }
+
+.center-to-right {
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+ text-align: center;
+ }
+.navbar-text > a {
+    color:#fffff; 
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+
+.center-to-left {
+ text-align: left;
+ float: left;
+ }
+
+.center-to-right {
+ float: right;
+ text-align: left;
+ }
+ .left-to-right {
+ float: left;
+ text-align: left;
+ }
+}
+
+a, a:hover {
+    text-decoration: none;
+     color:#fffff; 
+}
+.footerHeader{color:#ffffff;padding:5px 0px; font-weight: 700;font-size:15px;}
+.socialbtns, .socialbtns ul, .socialbtns li {
+    margin:-1px;
+    margin-left:3px;
+    padding-left: 0px;
+     color:#fffff; 
+     font-size:13px;
+     line-height: 190%;
+}
+
+.socialbtns li {
+    list-style: none;
+    color:#fffff; 
+    
+}
+ul
+{
+    list-style-type: none;
+}
+
+.socialbtns .fa {
+	
+    width: 21px;
+    height: 19px;
+    color: #D16C23;
+    background-color: #FFF;
+    padding-top: 5px;
+    padding-left: 3px;
+    margin-right:5px;
+    border-radius:4px;
+    transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+
+.socialbtns .fa:hover {
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+
+@media(min-width:992px){.searchPB{padding:0px 0px 0px 25px;}}
+.center-block {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-txt{
+	
+	margin-left:-10px;
+	margin-top:1%;margin-bottom:1%;
+	width: 200px; 
+}
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 5px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 18px;
+    padding: 10px 16px 10px 40px;
+}
+@media (max-width:440px){
+	.icon-addon.addon-sm .glyphicon {
+    margin-left: -10;
+    font-size: 12px;
+    left: -30px;
+    top: 3px
+}
+.icon-addon.addon-sm .form-control {
+    height: 26px;
+    padding: 5px 15px 5px 0px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+}
+.icon-addon.addon-sm .form-control {
+    height: 26px;
+    padding: 5px 15px 5px 32px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.icon-addon.addon-lg .fa,
+.icon-addon.addon-lg .glyphicon {
+    font-size: 18px;
+    margin-left: 0;
+    left: 11px;
+    top: 4px;
+}
+
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {
+    padding-left: 30px;
+    float: left;
+    font-weight: normal;
+}
+
+.icon-addon.addon-sm .fa,
+.icon-addon.addon-sm .glyphicon {
+    margin-left: 0;
+    font-size: 12px;
+    left: 20px;
+    top: 3px
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #2580db;
+}
